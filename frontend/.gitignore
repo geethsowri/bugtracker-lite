@@ -1,0 +1,48 @@
+# === LOGS ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tgz
+
+# === ENV FILES ===
+.env
+.env.*  # .env.local, .env.production etc.
+
+# === NODE ===
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === BUILD OUTPUT ===
+dist/
+dist-ssr/
+build/
+coverage/
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.bak
+
+# === IDE & EDITOR SETTINGS ===
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === MISC ===
+uploads/
+public/uploads/
+*.tsbuildinfo
